@@ -199,6 +199,8 @@ with st.sidebar:
         "YOLOv8 Medium": "yolov8m.pt"
     }
     
+    # Note: Model files must be in the repository for Streamlit Cloud deployment
+    
     selected_model = st.selectbox(
         "Select Model:",
         list(model_options.keys()),
